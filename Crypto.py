@@ -55,9 +55,9 @@ def Hasher(donnee, iv):
         # Chiffrement du block
         block = bytes(b1 ^ b2 for b1, b2 in zip(block, block_precedant))
         
-        # print("Iv utilisé        : ", iv)
-        # print("Block chiffré     : ", block)
-        # print("Longueur du block : ", len(block))
+        print("Iv utilisé        : ", iv)
+        print("Block chiffré     : ", block)
+        print("Longueur du block : ", len(block))
 
         # print("\n")
 
